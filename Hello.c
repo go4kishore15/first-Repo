@@ -41,7 +41,7 @@ void push(struct node** head_ref,int data)
 
 }
 
-int main()
+void main()
 {
     struct node* head = NULL;
 
@@ -82,5 +82,5 @@ int main()
     fun(head);
 
     printf("Hello %d", sizeof(head));
-    return 0;
+
 }
